@@ -9,7 +9,7 @@ Starting with 0.12 Flask-SQLAlchemy can easily connect to multiple
 databases.  To achieve that it preconfigures SQLAlchemy to support
 multiple “binds”.
 
-What are binds?  In SQLAlchemy speak a bind is something that can execute
+What are binds?  In SQLAlchemy-speak a bind is something that can execute
 SQL statements and is usually a connection or engine.  In Flask-SQLAlchemy
 binds are always engines that are created for you automatically behind the
 scenes.  Each of these engines is then associated with a short key (the
